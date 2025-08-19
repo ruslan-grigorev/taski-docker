@@ -22,7 +22,7 @@ services:
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static_volume:/frontend_static
-  gateway:
+  gateway:как
     image: ride155dh/taski_gateway  # Качаем с Docker Hub
     env_file: .env
     volumes:
